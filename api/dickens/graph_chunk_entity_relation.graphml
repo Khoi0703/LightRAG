@@ -1,0 +1,610 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d4" for="edge" attr.name="description" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;WHITE COMFORTER&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The clerk wears a white comforter to stay warm, indicating the coldness of the office."|&gt;"office condition, physical detail"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;STAVE FOUR&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Stave Four is mentioned as a section heading, indicating a division within the text."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;EFFORT, NOT BEING A MAN OF STRONG IMAGINATION&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The clerk's effort to warm himself and the comment about his lack of imagination show his struggle in the cold environment."|&gt;"struggle, character trait"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;STAVE FIVE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Stave Five is mentioned as a section heading, indicating a division within the text."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;VOICE OF SCROOGE'S NEPHEW&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The cheerful voice of Scrooge's nephew contrasts with Scrooge's cold demeanor, highlighting the nephew's attitude towards his uncle."|&gt;"contrast, character interaction"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;FROSTY RIME&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Frosty rime is mentioned, indicating a type of frost or ice."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;TRADITIONAL GREETING, INTERACTION&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Scrooge's nephew's traditional greeting is a contrast to Scrooge's response, indicating a familial expectation."|&gt;"familial expectation, contrast"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;HOLIDAY COMMENT, ATTITUDE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Scrooge's dismissive comment about Christmas is a reflection of his general attitude towards the holiday."|&gt;"holiday comment, character attitude"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;SOCIAL CONNECTIONS, DETACHMENT&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Scrooge's attitude towards human sympathy and social connections is a key aspect of his character, highlighting his detachment."|&gt;"character trait, social attitude"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;PROJECT GUTENBERG&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Project Gutenberg is an organization that provides free access to eBooks with minimal restrictions. It is responsible for the publication of 'A Christmas Carol'."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;A CHRISTMAS CAROL&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A Christmas Carol is a literary event, the title of a novel by Charles Dickens, which has been made available as an eBook by Project Gutenberg."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;CHARLES DICKENS&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Charles Dickens is the author of 'A Christmas Carol', a well-known English writer from the 19th century."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;ARTHUR RACKHAM&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Arthur Rackham is the illustrator of 'A Christmas Carol', known for his detailed and whimsical illustrations."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;SCROOGE&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Scrooge is a character known for his cold and unsympathetic nature, represented as solitary and cold in his demeanor and surroundings."&lt;SEP&gt;"Scrooge is the protagonist of the story, known for his tight-fisted nature and is described with various physical attributes."</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;J. B. LIPPINCOTT COMPANY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"J. B. Lippincott Company is the original publisher of 'A Christmas Carol' in 1915."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;PHILADELPHIA&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Philadelphia is a city in the United States where the original publication of 'A Christmas Carol' took place."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;NEW YORK&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"New York is a city in the United States where the original publication of 'A Christmas Carol' took place."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;EBENEZER SCROOGE&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Ebenezer Scrooge is the main character in 'A Christmas Carol', a greedy and miserly businessman."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;BOB CRATCHIT&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Bob Cratchit is a character in 'A Christmas Carol', the clerk to Ebenezer Scrooge and father of the Cratchit family."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;GOD SAVE YOU!&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"'God save you!' is a phrase used by Scrooge's nephew, showing a traditional greeting."|&gt;"traditional greeting, interaction"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;TINY TIM&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Tiny Tim is a character in 'A Christmas Carol', the youngest and disabled son of Bob Cratchit."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;MR. FEZZIWIG&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Mr. Fezziwig is a character in 'A Christmas Carol', a kind-hearted and jovial merchant."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;FRED&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Fred invited Uncle Scrooge to dinner and is involved in the narrative."&lt;SEP&gt;"Fred is a character in 'A Christmas Carol', the nephew of Ebenezer Scrooge."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;UNCLE&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Scrooge's nephew addresses Scrooge as 'uncle,' indicating a familial relationship."|&gt;"familial relationship, address"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;GHOST OF CHRISTMAS PAST&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Ghost of Christmas Past is a character in 'A Christmas Carol', one of the three spirits that visit Scrooge."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;GHOST OF CHRISTMAS PRESENT&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Ghost of Christmas Present is a character in 'A Christmas Carol', one of the three spirits that visit Scrooge."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;GHOST OF CHRISTMAS YET TO COME&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Ghost of Christmas Yet to Come is a character in 'A Christmas Carol', one of the three spirits that visit Scrooge."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;GHOST OF JACOB MARLEY&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Ghost of Jacob Marley is a character in 'A Christmas Carol', the spirit of Scrooge's former business partner."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;BELLE&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Belle is a character in 'A Christmas Carol', Scrooge's old sweetheart."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;CAROLINE&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Caroline is a character in 'A Christmas Carol', the wife of one of Scrooge's debtors."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;CLERK&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The clerk is mentioned as a participant in the burial process, indicating an administrative figure's involvement."&lt;SEP&gt;"The clerk works for Scrooge in the counting-house, performing tasks in a small, bleak cell-like room."</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;MRS. CRATCHIT&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Mrs. Cratchit is a character in 'A Christmas Carol', the wife of Bob Cratchit."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;BELINDA AND MARTHA CRATCHIT&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Belinda and Martha Cratchit are characters in 'A Christmas Carol', the daughters of Bob Cratchit."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;MRS. DILBER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Mrs. Dilber is a character in 'A Christmas Carol', a laundress."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;COUNTING-HOUSE&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"The counting-house is Scrooge's place of business, reflecting his solitary and cold nature."</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;FAN&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Fan is a character in 'A Christmas Carol', Scrooge's sister."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </node>
+    <node id="&quot;MRS. FEZZIWIG&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Mrs. Fezziwig danced with old Fezziwig and is referenced in the text."&lt;SEP&gt;"Mrs. Fezziwig is a character in 'A Christmas Carol', the wife of Mr. Fezziwig."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;SCROOGE AND MARLEY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Scrooge and Marley is the business partnership between Ebenezer Scrooge and Jacob Marley, mentioned in 'A Christmas Carol'."&lt;SEP&gt;"Scrooge and Marley is the business partnership mentioned in the text."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;JOE&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Joe is a character in 'A Christmas Carol', described as a marine-store dealer and receiver of stolen goods, interacting with Scrooge and his business."**&lt;SEP&gt;"Joe is a character in the text who has a conversation with a woman about bed-curtains and Old Scratch."</data>
+      <data key="d2">chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;FEZZIWIG&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Fezziwig is an individual mentioned in the text who danced with Mrs. Fezziwig."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;UNCLE SCROOGE&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Uncle Scrooge, also known as Scrooge, is the main character in the text and is invited to dinner by Fred."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;OLD SCRATCH&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Old Scratch is referred to in a conversational manner, possibly a colloquial name for someone or a metaphorical figure."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;THE WOMAN&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The woman is a character in the text who converses with Joe about the bed-curtains taken down with Old Scratch lying there."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;MARLEY&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Marley is the deceased partner of Scrooge, mentioned in the text regarding Scrooge's knowledge of his death."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;HAMLET&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Hamlet is referenced in the text to illustrate the concept of a character's father dying before the play begins."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;ST. PAUL'S CHURCHYARD&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"St. Paul's Churchyard is mentioned as an example of a place where a middle-aged gentleman might go out at night."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;SCROOGE'S WAREHOUSE&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Scrooge's warehouse is the location where Old Marley's name was signed and where Scrooge and Marley's firm was known."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;THE FIRM&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The firm refers to Scrooge and Marley's business partnership, which is known by both names."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;GROUP&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"A group is mentioned in the text, described as flushed and boisterous, possibly referring to a group of people celebrating Christmas."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;CHRISTMAS EVE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Christmas Eve is the setting of the story where Scrooge's character is depicted in his most unsympathetic form."</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;PLUMP SISTER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The plump sister is referenced in the text, described in relation to Uncle Scrooge's actions."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;SCRATCH&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Scratch is mentioned in the conversation between Joe and the woman, possibly a name or a metaphorical reference."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;CHRISTMAS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Christmas is the event being celebrated in the text, marked by the mention of Christmas toys and presents."&lt;SEP&gt;"Christmas is the holiday that Scrooge's nephew references, creating a contrast with Scrooge's attitude towards the holiday."|&gt;"holiday, contrast"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;BED-CURTAINS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Bed-curtains are mentioned in the conversation between Joe and the woman, indicating an object of discussion."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;TAILPIECE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Tailpiece is mentioned as a part of the text, possibly referring to an afterword or additional content."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;LIST OF COLOURED ILLUSTRATIONS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"List of Coloured Illustrations is mentioned, indicating the presence of a list related to illustrations in the text."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;CITY CLOCK&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The City clock is mentioned as a marker of time, suggesting the late hour and the cold weather of the setting."</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;LIST OF BLACK AND WHITE ILLUSTRATIONS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"List of Black and White Illustrations is mentioned, indicating the presence of a list related to black and white illustrations in the text."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;STAVE ONE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Stave One is mentioned as a section heading, possibly indicating a division within the text."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;ILLUSTRATION&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Illustration is mentioned, indicating the presence of illustrations within the text."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;PAVEMENT STONES&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Pavement stones are mentioned as a part of the street where Scrooge's nephew approaches him, contributing to the setting."|&gt;"street setting, physical detail"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;MARLEY'S GHOST&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Marley's Ghost is mentioned as a title, indicating a significant event or section in the text."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;OLD MARLEY&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Old Marley is mentioned in relation to his death and Scrooge's reaction, indicating a character's demise."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;REGISTER OF BURIAL&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The register of burial is mentioned, indicating a formal record of a death."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;CLERGYMAN&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The clergyman is mentioned as a participant in the burial process, indicating a religious figure's involvement."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;UNDERTAKER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The undertaker is mentioned as a participant in the burial process, indicating a professional involved in funerals."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;CHIEF MOURNER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The chief mourner is mentioned as a participant in the burial process, indicating a person of significant grief or importance."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;BAH!&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"'Bah!' is Scrooge's response to his nephew, indicating his lack of enthusiasm for the holiday."|&gt;"response, holiday attitude"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;EXECUTOR&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"Executor is mentioned in relation to Marley's estate, indicating a legal role in managing a deceased person's affairs."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;ADMINISTRATOR&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"Administrator is mentioned in relation to Marley's estate, indicating a legal role in managing a deceased person's affairs."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;ASSIGN&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"Assign is mentioned in relation to Marley's estate, indicating a legal role in transferring property or assets."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;HUMBUG!&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"'Humbug!' is Scrooge's dismissive remark about Christmas, reflecting his negative view of the holiday."|&gt;"holiday comment, attitude"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;RESIDUARY LEGATEE&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"Residuary legatee is mentioned in relation to Marley's estate, indicating a legal role in inheriting the remaining assets after specific bequests have been made."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;FRIEND&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"Friend is mentioned in relation to Marley, indicating a personal relationship with Scrooge."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;NEPHEW&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Scrooge's nephew visits Scrooge on Christmas Eve, showing his concern and contrast with Scrooge's character."|&gt;"visitation, character contrast"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;MOURNER&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"Mourner is mentioned in relation to Marley's funeral, indicating a person who participated in the mourning ceremony."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;PEOPLE IN THE COURT&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The people in the court are described as struggling with the cold weather, highlighting the contrast with Scrooge."|&gt;"cold weather impact, character contrast"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;BARGAIN&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Bargain is mentioned in relation to Scrooge's business dealings, indicating a deal or transaction."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;PLAY&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Play is mentioned in the context of Hamlet, indicating a theatrical performance."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;NEIGHBOURING OFFICES&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Neighbouring offices are referenced in the context of the setting, adding to the atmosphere of the story."|&gt;"setting detail, physical environment"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;RAMPARTS&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Ramparts are mentioned in the context of Hamlet's father, indicating a fortified structure."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;FOG&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Fog is described as enveloping the city, contributing to the mood and setting of the story."|&gt;"mood, setting"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;BREEZY SPOT&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Breezy spot is mentioned as a place where a middle-aged gentleman might go out at night, indicating a specific location."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;STAVE TWO&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Stave Two is mentioned as a section heading, indicating a division within the text."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;BROWN AIR&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"The brown air is a descriptive term for the foggy atmosphere, adding to the visual imagery of the scene."|&gt;"atmospheric description, visual imagery"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;CURIOUSLY LIGHT WINE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Curiously light wine is mentioned, indicating a specific type of beverage."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;PHANTOMS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Phantoms are used metaphorically to describe the houses opposite Scrooge's counting-house, emphasizing the fog's effect."|&gt;"metaphor, setting detail"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;BLOCK OF CURIOUSLY HEAVY CAKE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Block of curiously heavy cake is mentioned, indicating a specific type of food."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;BLIND MEN'S DOGS&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The blind men's dogs are mentioned, indicating Scrooge's lack of recognition or concern for others."|&gt;"character detail, interaction"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;CLIMATE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Climate is mentioned in relation to the setting, indicating the general weather or atmosphere of the location."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;DOORWAYS AND UP COURTS&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"The mention of doorways and courts suggests the area where the blind men's dogs lead their owners, contributing to the setting."|&gt;"setting detail, physical environment"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;TIM'S BLOOD-HORSE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Tim's blood-horse is mentioned, indicating a specific type of horse associated with Tim."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;EVIL EYE, DARK MASTER!&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"'Evil eye, dark master!' is the dogs' implied message about Scrooge, reflecting their recognition of his character."|&gt;"character recognition, interaction"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;PUDDING&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Pudding is mentioned, indicating a type of food."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;CROWDED PATHS OF LIFE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"'Crowded paths of life' is a metaphor for the social interactions Scrooge avoids, showing his detachment from society."|&gt;"metaphor, social detachment"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;STAVE THREE&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Stave Three is mentioned as a section heading, indicating a division within the text."</data>
+      <data key="d2">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </node>
+    <node id="&quot;HUMAN SYMPATHY&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Scrooge's warning to keep human sympathy at a distance reflects his lack of interest in social connections."|&gt;"social attitude, character trait"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <node id="&quot;NUTS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"'Nuts' is a slang term used by Scrooge to describe his attitude towards human sympathy, indicating his indifference."|&gt;"slang, attitude"</data>
+      <data key="d2">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </node>
+    <edge source="&quot;PROJECT GUTENBERG&quot;" target="&quot;A CHRISTMAS CAROL&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Project Gutenberg has made 'A Christmas Carol' available as an eBook with minimal restrictions. It is the organization responsible for its publication."|&gt;"publication, digital availability"</data>
+      <data key="d5">9</data>
+      <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </edge>
+    <edge source="&quot;A CHRISTMAS CAROL&quot;" target="&quot;CHARLES DICKENS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Charles Dickens is the author of 'A Christmas Carol', which he wrote. The book is a literary work attributed to his name."|&gt;"authorship, literary work"</data>
+      <data key="d5">8</data>
+      <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </edge>
+    <edge source="&quot;A CHRISTMAS CAROL&quot;" target="&quot;J. B. LIPPINCOTT COMPANY&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"J. B. Lippincott Company published 'A Christmas Carol' in 1915. The book was originally printed by this publisher."|&gt;"publication, original publisher"</data>
+      <data key="d5">6</data>
+      <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </edge>
+    <edge source="&quot;A CHRISTMAS CAROL&quot;" target="&quot;ARTHUR RACKHAM&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Arthur Rackham is the illustrator of 'A Christmas Carol', contributing to its visual representation. The book is illustrated by his artwork."|&gt;"illustration, artistic contribution"</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </edge>
+    <edge source="&quot;A CHRISTMAS CAROL&quot;" target="&quot;BOB CRATCHIT&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Bob Cratchit is a supporting character in 'A Christmas Carol', working as a clerk for Ebenezer Scrooge and father to the Cratchit family."|&gt;"supporting character, family context"</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </edge>
+    <edge source="&quot;A CHRISTMAS CAROL&quot;" target="&quot;EBENEZER SCROOGE&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"Ebenezer Scrooge is the central character of 'A Christmas Carol', around whom the story revolves."|&gt;"protagonism, central character"</data>
+      <data key="d5">10</data>
+      <data key="d6">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+    </edge>
+    <edge source="&quot;SCROOGE&quot;" target="&quot;CHRISTMAS EVE&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Scrooge's cold and unsympathetic nature is highlighted on Christmas Eve, the event setting."|&gt;"character depiction, event setting"</data>
+      <data key="d5">9</data>
+      <data key="d6">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </edge>
+    <edge source="&quot;SCROOGE&quot;" target="&quot;COUNTING-HOUSE&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Scrooge operates his business from the counting-house, reflecting his personality and work habits."|&gt;"business location, personality"</data>
+      <data key="d5">8</data>
+      <data key="d6">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </edge>
+    <edge source="&quot;SCROOGE&quot;" target="&quot;HAMLET&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Scrooge referenced Hamlet to illustrate the concept of a character's father dying before the play begins."|&gt;"reference, father's death"</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </edge>
+    <edge source="&quot;SCROOGE&quot;" target="&quot;ST. PAUL'S CHURCHYARD&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"Scrooge mentioned St. Paul's Churchyard as an example of a place where a man might go out at night."|&gt;"example, place reference"</data>
+      <data key="d5">6</data>
+      <data key="d6">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </edge>
+    <edge source="&quot;SCROOGE&quot;" target="&quot;MARLEY&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Scrooge knew Marley was dead, indicating a business and personal connection between the two."|&gt;"business partnership, death knowledge"</data>
+      <data key="d5">8</data>
+      <data key="d6">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </edge>
+    <edge source="&quot;SCROOGE&quot;" target="&quot;SCROOGE'S WAREHOUSE&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Scrooge's warehouse is where the firm Scrooge and Marley was known, indicating a business location."|&gt;"business location"</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </edge>
+    <edge source="&quot;SCROOGE&quot;" target="&quot;CLERK&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Scrooge and the clerk have a professional relationship, with Scrooge overseeing the clerk's work."|&gt;"supervision, employment"</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </edge>
+    <edge source="&quot;SCROOGE&quot;" target="&quot;SCROOGE AND MARLEY&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Scrooge was a partner in Scrooge and Marley, the firm mentioned in the text."|&gt;"business partnership"</data>
+      <data key="d5">9</data>
+      <data key="d6">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </edge>
+    <edge source="&quot;FRED&quot;" target="&quot;UNCLE SCROOGE&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Uncle Scrooge was invited to dinner by Fred, showing a connection between the two characters."|&gt;"dinner invitation"</data>
+      <data key="d5">7</data>
+      <data key="d6">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </edge>
+    <edge source="&quot;MRS. FEZZIWIG&quot;" target="&quot;FEZZIWIG&quot;">
+      <data key="d3">5.0</data>
+      <data key="d4">"Fezziwig danced with Mrs. Fezziwig, indicating a social interaction between the two."|&gt;"social interaction"</data>
+      <data key="d5">5</data>
+      <data key="d6">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </edge>
+    <edge source="&quot;JOE&quot;" target="&quot;THE WOMAN&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"Joe and the woman had a conversation about bed-curtains, indicating a dialogue between the two."|&gt;"conversation"</data>
+      <data key="d5">6</data>
+      <data key="d6">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+    </edge>
+    <edge source="&quot;CHRISTMAS EVE&quot;" target="&quot;CITY CLOCK&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"The City clock is mentioned in the context of the setting on Christmas Eve, indicating the time and mood."|&gt;"time reference, event setting"</data>
+      <data key="d5">6</data>
+      <data key="d6">chunk-c5185d2836d35620e0cb016a66db4e76</data>
+    </edge>
+  </graph>
+</graphml>
