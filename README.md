@@ -1,8 +1,3 @@
-Dưới đây là **README đầy đủ – chi tiết – chuyên nghiệp – đủ sâu để đưa lên GitHub portfolio AI/Data**.
-Bạn chỉ cần copy vào `README.md`.
-
----
-
 # 🧠 Voz Forum Conversational RAG System
 
 A Graph-Based Conversational Retrieval-Augmented Generation (RAG) system built to analyze, retrieve, and answer questions from real-world Vietnamese forum discussions.
@@ -258,5 +253,6 @@ This will:
 * Enable conversational querying
 
 ---
+
 
 
