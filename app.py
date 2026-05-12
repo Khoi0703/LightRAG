@@ -1,61 +1,64 @@
 import streamlit as st
 import requests
 
-# URL của FastAPI
 API_URL = "http://localhost:8000/chatbot/"
 
-# Hàm gọi API chatbot
-def call_chatbot_api(user_input, mode="local"):
-    payload = {"text": user_input, "mode": mode}
-    response = requests.post(API_URL, json=payload)
-    if response.status_code == 200:
-        return response.json().get("response", "No response from chatbot.")
-    else:
-        return f"Error: {response.status_code} - {response.text}"
+st.set_page_config(page_title="Voz RAG Chatbot", layout="wide")
+st.title("🤖 Voz Forum RAG Chatbot")
+st.caption("Đặt câu hỏi về các cuộc thảo luận trên diễn đàn Voz.vn")
 
-# Thiết lập giao diện Streamlit
-st.set_page_config(page_title="Chatbot", layout="wide")
-
-st.title("🤖 Chatbot với LightRAG")
-st.markdown("Chào mừng bạn đến với chatbot. Hãy nhập câu hỏi của bạn bên dưới!")
-
-# Tạo sidebar để chọn chế độ
+# Sidebar: chọn chế độ truy vấn
 mode = st.sidebar.selectbox(
-    "Chọn chế độ",
-    options=["local", "hybrid", "global", "naive"],
-    help="Chế độ chat hoặc trả lời câu hỏi.",
+    "Chế độ truy vấn",
+    options=["hybrid", "local", "global", "naive"],
+    help=(
+        "hybrid: Kết hợp vector + graph (khuyên dùng)\n"
+        "local: Tìm kiếm cục bộ, câu hỏi cụ thể\n"
+        "global: Tổng hợp toàn bộ đồ thị\n"
+        "naive: Vector search thuần túy"
+    ),
 )
 
-# Lưu trữ lịch sử hội thoại
+if st.sidebar.button("🗑️ Xóa lịch sử"):
+    st.session_state.chat_history = []
+    st.rerun()
+
+# Khởi tạo lịch sử chat
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
-if "my_text" not in st.session_state:
-    st.session_state.my_text = ""
-def submit():
-    st.session_state.my_text = st.session_state.user_input
-    st.session_state.user_input = ""
-st.text_area("Nhập tin nhắn của bạn:", key="user_input", height=100,on_change=submit)
-user_input = st.session_state.my_text
-if st.button("Gửi"):
-    if user_input.strip():
-        # Hiển thị câu hỏi của người dùng
-        st.session_state.chat_history.append({"role": "user", "content": user_input})
 
-        # Gọi API chatbot
-        bot_response = call_chatbot_api(user_input, mode=mode)
-
-        # Hiển thị phản hồi của bot
-        st.session_state.chat_history.append({"role": "bot", "content": bot_response})
-        
-
-    else:
-        st.warning("Vui lòng nhập câu hỏi trước khi gửi!")
-
-
+# Hiển thị lịch sử hội thoại bằng st.chat_message
 for message in st.session_state.chat_history:
-    role = "👤" if message["role"] == "user" else "🤖"
-    st.markdown(f"**{role}**: {message['content']}")
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
 
-if st.button("Xóa lịch sử"):
-    st.session_state.chat_history = []
-    st.success("Đã xóa lịch sử hội thoại.")
+# Ô nhập câu hỏi
+user_input = st.chat_input("Nhập câu hỏi của bạn...")
+
+if user_input:
+    # Hiển thị tin nhắn người dùng
+    with st.chat_message("user"):
+        st.markdown(user_input)
+    st.session_state.chat_history.append({"role": "user", "content": user_input})
+
+    # Gọi API và hiển thị phản hồi
+    with st.chat_message("assistant"):
+        with st.spinner("Đang xử lý..."):
+            try:
+                resp = requests.post(
+                    API_URL,
+                    json={"text": user_input, "mode": mode},
+                    timeout=60,
+                )
+                if resp.status_code == 200:
+                    bot_response = resp.json().get("response", "Không có phản hồi.")
+                else:
+                    bot_response = f"Lỗi {resp.status_code}: {resp.text}"
+            except requests.exceptions.ConnectionError:
+                bot_response = "❌ Không thể kết nối đến server. Hãy chắc chắn `server.py` đang chạy."
+            except requests.exceptions.Timeout:
+                bot_response = "⏱️ Server phản hồi quá lâu. Vui lòng thử lại."
+
+        st.markdown(bot_response)
+
+    st.session_state.chat_history.append({"role": "assistant", "content": bot_response})

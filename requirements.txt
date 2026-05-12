@@ -1,27 +1,36 @@
-accelerate
-aioboto3
-aiohttp
+# Core RAG framework
+lightrag-hku
 
-# database packages
-graspologic
-hnswlib
-nano-vectordb
-neo4j
-networkx
-ollama
-openai
-oracledb
-pymilvus
-pymongo
-pymysql
-pyvis
-# lmdeploy[all]
-sqlalchemy
-tenacity
+# API & Web server
+fastapi
+uvicorn
+streamlit
+python-dotenv
+requests
 
-
-# LLM packages
-tiktoken
-torch
+# LLM & Embedding
 transformers
+torch
+accelerate
+tiktoken
+
+# Graph database
+neo4j
+
+# Utilities
+aiohttp
+tenacity
 xxhash
+networkx
+nano-vectordb
+hnswlib
+graspologic
+
+# Data scraping (dùng trong ScrapeData.ipynb)
+beautifulsoup4
+cloudscraper
+pandas
+
+# Visualization (dùng trong notebook EDA)
+matplotlib
+wordcloud

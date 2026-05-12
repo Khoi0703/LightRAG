@@ -1,0 +1,28 @@
+# Environment variables
+.env
+*.env
+
+# Runtime data (không commit dữ liệu vector DB)
+workdir/
+local_neo4jWorkDir/
+api/dickens/
+*WorkDir/
+
+# Logs
+*.log
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Dataset (thường quá lớn để commit)
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
